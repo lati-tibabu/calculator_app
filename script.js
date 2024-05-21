@@ -28,6 +28,12 @@ function calculate() {
   operator = "";
   updateDisplay(currentNumber);
 }
+function clearDisplay() {
+  currentNumber = "";
+  previousNumber = "";
+  operator = "";
+  updateDisplay("0");
+}
 
 
 function updateDisplay(value) {
