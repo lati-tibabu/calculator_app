@@ -29,12 +29,6 @@ function calculate() {
   updateDisplay(currentNumber);
 }
 
-function clearDisplay() {
-  currentNumber = "";
-  previousNumber = "";
-  operator = "";
-  updateDisplay("0");
-}
 
 function updateDisplay(value) {
   var displayElement = document.getElementById("contt");
